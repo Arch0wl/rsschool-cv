@@ -46,6 +46,7 @@ console.log(getMiddle("bird"));
 Master of Architecture
 * **Belarusian National Technical University**
 Master of Industrial and Civil Engineering
+
 ---
 ### Courses: 
 
@@ -53,4 +54,10 @@ Master of Industrial and Civil Engineering
 * Learn React [Scrimba](https://scrimba.com/learn/learnreact/review-array-map-co4f44cfb9e4575776dc759eb)
 * Learn Python [Scrimba](https://scrimba.com/learn/python/functions-named-notation-cp48pLT9)
 
+---
+### Languages: 
+
+**Belarusian:** native\
+**Russian:** native\
+**English:** C1
 
