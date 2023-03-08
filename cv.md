@@ -39,3 +39,18 @@ function getMiddle(s)
 console.log(getMiddle("tower"));
 console.log(getMiddle("bird"));
 ```
+
+---
+### Education: 
+* **New Jersey Institute of Technology**
+Master of Architecture
+* **Belarusian National Technical University**
+Master of Industrial and Civil Engineering
+---
+### Courses: 
+
+* Software Engineering Career Course [Boca Code](https://www.bocacode.com/courses/career/software-engineering)
+* Learn React [Scrimba](https://scrimba.com/learn/learnreact/review-array-map-co4f44cfb9e4575776dc759eb)
+* Learn Python [Scrimba](https://scrimba.com/learn/python/functions-named-notation-cp48pLT9)
+
+
