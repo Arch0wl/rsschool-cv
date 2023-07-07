@@ -219,6 +219,22 @@ body {
   padding: 20px;
 }
 
+/* summary */
+
+.section-summary {
+  margin-top: 100px;
+}
+
+.summary-text {
+
+  margin-right: 10px;
+
+  font-weight: 300;
+  text-align: left;
+  font-size: 18px;
+
+}
+
 
 /* Footer */
 .footer {
