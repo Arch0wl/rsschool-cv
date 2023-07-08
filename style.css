@@ -224,7 +224,6 @@ body {
 
 .language-text {
   padding-left: 10px;
-
 }
 
 .language-title {
@@ -327,6 +326,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-link-footer {
+  padding-left: 10px;
+}
+
+.contact-link-footer {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all .4s linear;
+}
+
+.contact-link-footer:hover {
+  color: var(--second-color);
+  text-decoration: underline;
+}
+
+
+.cv-year {
+  padding-right: 20px;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
