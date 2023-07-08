@@ -5,16 +5,13 @@
 }
 
 /* colors */
-/* :root {
+:root {
   --main-color: rgb(104, 119, 139);
-  --main-color: rgb(243, 245, 249);
-  --text-color: rgb(33, 39, 46);
+  --second-color: rgba(90, 186, 220, 0.912);
+  --light-gray: #f1f1f1;
+  --text-color: #363636;
   --white: #fafafa;
-  --gray: #ededee;
-  --light-gray: #715e5e;
-  --purple: palevioletred;
-  --purple-light: rgb(237, 143, 174);
-} */
+}
 
 /* fonts */
 
@@ -30,6 +27,8 @@ body {
   padding: 0;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 300px;
+  min-height: 80vh;
 }
 
 /* header */
@@ -38,15 +37,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  background-color: var(--main-color);
-  -webkit-box-shadow: 0px 0px 14px 0px var(--text-color);
-  -moz-box-shadow: 0px 0px 14px 0px var(--text-color);
-  box-shadow: 0px 0px 14px 0px var(--text-color);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  padding: 10px 0;
 }
 
 /* style the navigation bar */
@@ -58,7 +49,7 @@ body {
 
 /* style the navigation bar links */
 .nav a {
-  color: white;
+  color: var(--white);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -66,8 +57,8 @@ body {
 
 /* Change color on hover */
 .nav a:hover {
-  background-color: pink;
-  color: black;
+  background-color: var(--second-color);
+  color: var(--text-color);
 }
 
 .nav-list {
@@ -96,7 +87,7 @@ body {
 
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: var(--light-gray);
   padding: 20px;
 }
 
@@ -139,13 +130,13 @@ body {
 }
 
 .contact-link {
-  color: darkblue;
+  color: var(--text-color);
   text-decoration: none;
   transition: all .4s linear;
 }
 
 .contact-link:hover {
-  color: pink;
+  color: var(--second-color);
   text-decoration: underline;
 }
 
@@ -165,11 +156,10 @@ body {
   margin-top: 0;
 }
 
-
 .dot {
   height: 10px;
   width: 10px;
-  background-color: pink;
+  background-color: var(--second-color);
   border-radius: 50%;
   margin-right: 5px;
   display: inline-block;
@@ -179,7 +169,7 @@ body {
 .dot-white {
   height: 10px;
   width: 10px;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 50%;
   margin-right: 5px;
   display: inline-block;
@@ -202,46 +192,72 @@ body {
 
 .education-title {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .education-block {
   padding-left: 40px;
 }
 
-/* english */
-.english-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.education-degree {
+  margin-top: 0px;
 }
 
-.english-text {
+.education-school {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+
+/* english */
+.language-block {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.language-text {
   padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.language-title {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 /* side/right column */
 .right-side {
   flex: 70%;
-  background-color: white;
+  background-color: var(--white);
   padding: 40px 20px 0px 40px;
 }
 
 .right-side-title {
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0px;
   font-size: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .right-side-span {
-  color: pink;
-  font-family: cursive;
+  color: var(--second-color);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   line-height: 60px;
   padding-left: 15px;
+}
+
+.right-side-developer {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 /* summary */
@@ -253,13 +269,7 @@ body {
 .summary-text {
   font-weight: 300;
   text-align: left;
-  font-size: 18px;
-}
-
-/* education */
-
-.education-degree {
-  margin-top: 0px;
+  font-size: 16px;
 }
 
 /* expierence  */
@@ -268,12 +278,22 @@ body {
   padding-left: 0;
 }
 
+.expierence-head {
+  margin-bottom: 7px;
+  color: var(--second-color);
+}
+
 .expierence-company {
   margin: 0;
+  color: var(--second-color);
 }
 
 .expierence-date {
   margin-top: 5px;
+}
+
+.expierence-span {
+  color: var(--text-color);
 }
 
 /* section-code */
@@ -300,5 +320,9 @@ body {
   .row,
   .nav .nav-list {
     flex-direction: column;
+  }
+
+  .nav {
+    justify-content: center;
   }
 }
