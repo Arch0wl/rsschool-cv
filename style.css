@@ -25,10 +25,10 @@ body {
   justify-content: space-between;
   min-width: 300px;
   min-height: 80vh;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.0;
+  line-height: 1.0; */
   color: var(--main-color);
 }
 
@@ -208,6 +208,10 @@ body {
   text-align: center;
 }
 
+.education-block {
+  padding-left: 40px;
+}
+
 
 
 
@@ -216,7 +220,11 @@ body {
 .right-side {
   flex: 70%;
   background-color: white;
-  padding: 20px;
+  padding: 40px 20px 40px 40px;
+}
+
+.right-side-title .h1 {
+  font-size: 32px;
 }
 
 /* summary */
@@ -226,9 +234,6 @@ body {
 }
 
 .summary-text {
-
-  margin-right: 10px;
-
   font-weight: 300;
   text-align: left;
   font-size: 18px;
@@ -238,7 +243,7 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 0px;
   text-align: center;
   background: #ddd;
   max-width: 1200px;
