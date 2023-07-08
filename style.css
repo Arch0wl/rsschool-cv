@@ -289,11 +289,17 @@ body {
 }
 
 .expierence-date {
-  margin-top: 5px;
+  margin-top: 0px;
+
 }
 
 .expierence-span {
   color: var(--text-color);
+  font-size: 16px;
+}
+
+.expierence-text {
+  margin-top: 0px;
 }
 
 /* section-code */
