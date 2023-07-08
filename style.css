@@ -16,6 +16,13 @@
   --purple-light: rgb(237, 143, 174);
 } */
 
+/* fonts */
+
+/* @font-face {
+  font-family: ;
+  src: url();
+} */
+
 /* styles */
 
 body {
@@ -23,13 +30,6 @@ body {
   padding: 0;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 300px;
-  min-height: 80vh;
-  /* font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.0; */
-  color: var(--main-color);
 }
 
 /* header */
@@ -49,10 +49,6 @@ body {
   border-radius: 5px;
 }
 
-/* fonts */
-
-
-
 /* style the navigation bar */
 .nav {
   display: flex;
@@ -70,7 +66,7 @@ body {
 
 /* Change color on hover */
 .nav a:hover {
-  background-color: #ddd;
+  background-color: pink;
   color: black;
 }
 
@@ -212,19 +208,40 @@ body {
   padding-left: 40px;
 }
 
+/* english */
+.english-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
+.english-text {
+  padding-left: 10px;
+}
 
 /* side/right column */
 .right-side {
   flex: 70%;
   background-color: white;
-  padding: 40px 20px 40px 40px;
+  padding: 40px 20px 0px 40px;
 }
 
-.right-side-title .h1 {
-  font-size: 32px;
+.right-side-title {
+  font-family: cursive;
+  margin-bottom: 0px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right-side-span {
+  color: pink;
+  font-family: cursive;
+  font-size: 60px;
+  line-height: 60px;
+  padding-left: 15px;
 }
 
 /* summary */
@@ -237,7 +254,6 @@ body {
   font-weight: 300;
   text-align: left;
   font-size: 18px;
-
 }
 
 /* education */
@@ -260,7 +276,11 @@ body {
   margin-top: 5px;
 }
 
+/* section-code */
 
+.code-text {
+  margin: 0;
+}
 
 /* Footer */
 .footer {
@@ -269,7 +289,6 @@ body {
   background: #ddd;
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid rgb(40, 40, 83);
   display: flex;
   justify-content: center;
   align-items: center;
