@@ -212,9 +212,7 @@ body {
   padding-left: 40px;
 }
 
-.education-degree {
-  margin-top: 0px;
-}
+
 
 
 
@@ -239,6 +237,13 @@ body {
   font-weight: 300;
   text-align: left;
   font-size: 18px;
+
+}
+
+/* education */
+
+.education-degree {
+  margin-top: 0px;
 }
 
 /* expierence  */
@@ -254,7 +259,6 @@ body {
 .expierence-date {
   margin-top: 5px;
 }
-
 
 
 
@@ -278,10 +282,4 @@ body {
   .nav .nav-list {
     flex-direction: column;
   }
-
-  .nav {
-    justify-content: center;
-  }
-
-
 }
